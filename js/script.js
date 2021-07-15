@@ -1,4 +1,4 @@
-fetch("/json/maxwell.json")
+fetch("../json/maxwell.json")
     .then(function(resp) {
         return resp.json()
     })
