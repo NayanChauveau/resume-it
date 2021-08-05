@@ -1,87 +1,89 @@
-#skils {
+.skl-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
-    .box-skl {
-        width: 50%;
-        display: flex;
-        justify-content: stretch;
-        align-items: center;
-    }
+.box-skl {
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
 
-    .skl-10 {
-        display: grid;
-        grid-template-columns: 1fr 9fr;
-        width: 100%;
-        height: 50%;
-    }
+.skl-10 {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    width: 100%;
+    height: 50%;
+}
 
-    .skl-20 {
-        display: grid;
-        grid-template-columns: 2fr 8fr;
-        width: 100%;
-        height: 50%;
-    }
+.skl-20 {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    width: 100%;
+    height: 50%;
+}
 
-    .skl-30 {
-        display: grid;
-        grid-template-columns: 3fr 7fr;
-        width: 100%;
-        height: 50%;
-    }
+.skl-30 {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    width: 100%;
+    height: 50%;
+}
 
-    .skl-40 {
-        display: grid;
-        grid-template-columns: 4fr 6fr;
-        width: 100%;
-        height: 50%;
-    }
+.skl-40 {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    width: 100%;
+    height: 50%;
+}
 
-    .skl-50 {
-        display: grid;
-        grid-template-columns: 5fr 5fr;
-        width: 100%;
-        height: 50%;
-    }
+.skl-50 {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    width: 100%;
+    height: 50%;
+}
 
-    .skl-60 {
-        display: grid;
-        grid-template-columns: 6fr 4fr;
-        width: 100%;
-        height: 50%;
-    }
+.skl-60 {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    width: 100%;
+    height: 50%;
+}
 
-    .skl-70 {
-        display: grid;
-        grid-template-columns: 7fr 3fr;
-        width: 100%;
-        height: 50%;
-    }
+.skl-70 {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    width: 100%;
+    height: 50%;
+}
 
-    .skl-80 {
-        display: grid;
-        grid-template-columns: 8fr 2fr;
-        width: 100%;
-        height: 50%;
-    }
+.skl-80 {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    width: 100%;
+    height: 50%;
+}
 
-    .skl-90 {
-        display: grid;
-        grid-template-columns: 9fr 1fr;
-        width: 100%;
-        height: 50%;
-    }
+.skl-90 {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    width: 100%;
+    height: 50%;
+}
 
-    .skl-100 {
-        display: grid;
-        grid-template-columns: 10fr 0fr;
-        width: 100%;
-        height: 50%;
-    }
+.skl-100 {
+    display: grid;
+    grid-template-columns: 10fr 0fr;
+    width: 100%;
+    height: 50%;
+}
 
-    .skl-left {
-        background-color: rgb(147, 149, 152);
-    }
+.skl-left {
+    background-color: rgb(147, 149, 152);
+}
 
-    .skl-right {
-        background-color: rgb(255, 255, 255);
-    }
+.skl-right {
+    background-color: rgb(255, 255, 255);
 }
